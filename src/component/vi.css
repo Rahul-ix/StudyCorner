@@ -48,8 +48,20 @@ h3{
   display: grid;
   place-content: center;
 }
+.button-1,.button-2{
+    border-radius: 10px;
+    color: rgb(2, 3, 3);
+    background-color: #8e9793;
+    width: 62px;
+    margin: 20px;
+}
 
-
+.button-1:hover{
+    background-color:#15fc9a ;
+}
+.button-2:hover{
+    background-color:#e25555 ;
+}
 .loader {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
