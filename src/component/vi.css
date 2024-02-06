@@ -1,0 +1,73 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+
+h3{
+    font-family: cursive;
+}
+.scrollport {
+  -webkit-mask-image: linear-gradient(to right, #0000, #000, #000, #0000);
+  
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  
+  display: flex;
+  gap: var(--size-10);
+  align-items: start;
+  padding: var(--size-10);
+}
+
+.scrollport > div {
+  block-size: var(--size-14);
+  display: flow;
+  aspect-ratio: var(--ratio-square);
+  background-color: var(--surface-2);
+  border-radius: var(--radius-3);
+  box-shadow: var(--shadow-4);
+}
+
+
+
+
+
+
+
+
+
+
+.b{
+    width: -webkit-fill-available;
+    margin: 15px;
+
+}
+
+
+
+
+.body {
+  display: grid;
+  place-content: center;
+}
+
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #15fc9a;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
