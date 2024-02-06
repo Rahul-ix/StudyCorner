@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Studycorner/static/css/main.18db30d2.css",
+    "main.css": "/Studycorner/static/css/main.83eb60b6.css",
     "main.js": "/Studycorner/static/js/main.960454b7.js",
     "static/js/592.76b959b7.chunk.js": "/Studycorner/static/js/592.76b959b7.chunk.js",
     "static/media/Part1.mp4": "/Studycorner/static/media/Part1.f9a4bb4efca618e2d7fb.mp4",
@@ -8,12 +8,12 @@
     "static/media/part4 pdf.mp4": "/Studycorner/static/media/part4 pdf.a4ede6d1e4e4470757d4.mp4",
     "static/media/part 2.mp4": "/Studycorner/static/media/part 2.ec0685b419a964baefc7.mp4",
     "index.html": "/Studycorner/index.html",
-    "main.18db30d2.css.map": "/Studycorner/static/css/main.18db30d2.css.map",
+    "main.83eb60b6.css.map": "/Studycorner/static/css/main.83eb60b6.css.map",
     "main.960454b7.js.map": "/Studycorner/static/js/main.960454b7.js.map",
     "592.76b959b7.chunk.js.map": "/Studycorner/static/js/592.76b959b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18db30d2.css",
+    "static/css/main.83eb60b6.css",
     "static/js/main.960454b7.js"
   ]
 }
